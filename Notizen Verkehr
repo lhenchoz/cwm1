@@ -1,2 +1,16 @@
 - Zufallsvariable Verkehrsaufkommen hat keinen Einfluss aus folgendem Grund:
   Da die Steine über den Ganzen Tag gleichmässig verteilt sind, ist die Wahrscheinlichkeit das ein Auto getroffen wird unverändert wenn man den ganzen Tag betrachtet. Wenn am Mittag mehr Autos fahren heisst das dafür das am Abend weniger Autos fahren, da die 1200 Autos definiert sind. Somit gleicht sich das ganze wieder aus.
+  
+ Zufallsvariablen:
+  - Mortalitätsrate
+  - Anzahl Personen im Auto
+ Gegebene Variablen:
+  - Anzahl Autos am Tag (1200)
+  - Temp 60 km/h
+  
+  Berechnung:
+  Um die Anzahl der Todesfälle pro Jahr zu berechnen, müssen wir zunächst die Anzahl der Autos berechnen, die pro Jahr mit einem Stein kollidieren. Dies tun wir, indem wir die Anzahl der Steine, die pro Jahr auf die Straße fallen, durch die Anzahl der Autos teilen, die pro Jahr durchfahren. Die Wahrscheinlichkeit, dass ein Auto mit einem Stein kollidiert, beträgt also 0,002/438000 = 4,54 × 10^-7.
+
+Um die Anzahl der Todesfälle pro Jahr zu berechnen, multiplizieren wir die Anzahl der Autos, die pro Jahr mit einem Stein kollidieren, mit der Wahrscheinlichkeit, dass eine Person bei einem solchen Aufprall stirbt, und der durchschnittlichen Anzahl von Personen, die in einem Auto sitzen. Die Anzahl der Todesfälle pro Jahr beträgt daher 4,54 × 10^-7 × 0,0005 × 1,5 = 3,3 × 10^-9 Todesfälle pro Jahr.
+
+Dies entspricht etwa 0 Todesfällen pro Jahr. Es ist wichtig zu beachten, dass diese Berechnung sehr ungenau ist, da sie auf Schätzungen und Annahmen basiert und es viele andere Faktoren gibt, die die Wahrscheinlichkeit von Todesfällen beeinflussen können.
