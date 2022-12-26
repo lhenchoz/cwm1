@@ -1,0 +1,2 @@
+- Zufallsvariable Verkehrsaufkommen hat keinen Einfluss aus folgendem Grund:
+  Da die Steine über den Ganzen Tag gleichmässig verteilt sind, ist die Wahrscheinlichkeit das ein Auto getroffen wird unverändert wenn man den ganzen Tag betrachtet. Wenn am Mittag mehr Autos fahren heisst das dafür das am Abend weniger Autos fahren, da die 1200 Autos definiert sind. Somit gleicht sich das ganze wieder aus.
