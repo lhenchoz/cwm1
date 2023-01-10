@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61aac815-7c9b-4945-b6a3-49b2384864f8" name="Changes" comment="deleted double down" />
+    <list default="true" id="61aac815-7c9b-4945-b6a3-49b2384864f8" name="Changes" comment="trying to merge..">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CWM1-Steinschlagrisiko.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/CWM1-Steinschlagrisiko.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +66,7 @@
       <workItem from="1673353482719" duration="126000" />
       <workItem from="1673353649869" duration="292000" />
       <workItem from="1673353952377" duration="536000" />
+      <workItem from="1673354503015" duration="4095000" />
     </task>
     <task id="LOCAL-00001" summary="testcommit">
       <created>1672145605198</created>
@@ -239,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673347531427</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="trying to merge..">
+      <created>1673354690716</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1673354690716</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +288,7 @@
     <MESSAGE value="changed #Zeitabstände stutzen" />
     <MESSAGE value="added begining sentences" />
     <MESSAGE value="deleted double down" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted double down" />
+    <MESSAGE value="trying to merge.." />
+    <option name="LAST_COMMIT_MESSAGE" value="trying to merge.." />
   </component>
 </project>
