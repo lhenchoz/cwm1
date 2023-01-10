@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="61aac815-7c9b-4945-b6a3-49b2384864f8" name="Changes" comment="deleted double down" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Branch-Logan" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JUbYGtGhusRyRzzpgNU923TFiE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/logan/Pictures&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61aac815-7c9b-4945-b6a3-49b2384864f8" name="Changes" comment="" />
+      <created>1672135655755</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672135655755</updated>
+      <workItem from="1672135657541" duration="1534000" />
+      <workItem from="1672146631248" duration="5853000" />
+      <workItem from="1672220218021" duration="12168000" />
+      <workItem from="1672265037409" duration="10440000" />
+      <workItem from="1672327119868" duration="3404000" />
+      <workItem from="1672484428056" duration="27000" />
+      <workItem from="1672649677891" duration="2510000" />
+      <workItem from="1672665540670" duration="1326000" />
+      <workItem from="1672750040065" duration="1952000" />
+      <workItem from="1672933696722" duration="1689000" />
+      <workItem from="1672935433465" duration="2049000" />
+      <workItem from="1672950731996" duration="4625000" />
+      <workItem from="1672994879522" duration="9160000" />
+      <workItem from="1673131749627" duration="5560000" />
+      <workItem from="1673252156392" duration="10439000" />
+      <workItem from="1673283707734" duration="158000" />
+      <workItem from="1673283880677" duration="5750000" />
+      <workItem from="1673339738109" duration="7370000" />
+      <workItem from="1673353482719" duration="126000" />
+      <workItem from="1673353649869" duration="292000" />
+      <workItem from="1673353952377" duration="536000" />
+    </task>
+    <task id="LOCAL-00001" summary="testcommit">
+      <created>1672145605198</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672145605198</updated>
+    </task>
+    <task id="LOCAL-00002" summary="incident calculation works, but without saving individual stones">
+      <created>1672234598418</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672234598418</updated>
+    </task>
+    <task id="LOCAL-00003" summary="extended incident calculation for sim data">
+      <created>1672239559339</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672239559339</updated>
+    </task>
+    <task id="LOCAL-00004" summary="incident calculation with tests">
+      <created>1672319249881</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672319249881</updated>
+    </task>
+    <task id="LOCAL-00005" summary="incident calculation clean">
+      <created>1672319498488</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672319498488</updated>
+    </task>
+    <task id="LOCAL-00006" summary="autos unfall kabooom">
+      <created>1672330522464</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672330522464</updated>
+    </task>
+    <task id="LOCAL-00007" summary="autos pro jahr aufgerechnet und berechnung angepasst">
+      <created>1672650686859</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672650686859</updated>
+    </task>
+    <task id="LOCAL-00008" summary="started to comment on code">
+      <created>1672750840771</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672750840771</updated>
+    </task>
+    <task id="LOCAL-00009" summary="started to comment on code">
+      <created>1672940774183</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672940774183</updated>
+    </task>
+    <task id="LOCAL-00010" summary="continued to comment on code">
+      <created>1672955543213</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1672955543213</updated>
+    </task>
+    <task id="LOCAL-00011" summary="continued to comment on code">
+      <created>1673002842647</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1673002842647</updated>
+    </task>
+    <task id="LOCAL-00012" summary="finished to comment on code at bottom">
+      <created>1673021069619</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1673021069619</updated>
+    </task>
+    <task id="LOCAL-00013" summary="finished to comment on code at bottom">
+      <created>1673021100215</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1673021100215</updated>
+    </task>
+    <task id="LOCAL-00014" summary="finished to comment on code at bottom">
+      <created>1673021114602</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1673021114602</updated>
+    </task>
+    <task id="LOCAL-00015" summary="finished to comment on code at bottom">
+      <created>1673021131102</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1673021131102</updated>
+    </task>
+    <task id="LOCAL-00016" summary="finished to comment on code at bottom">
+      <created>1673021142148</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1673021142148</updated>
+    </task>
+    <task id="LOCAL-00017" summary="finished to comment on code at bottom">
+      <created>1673021152153</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1673021152153</updated>
+    </task>
+    <task id="LOCAL-00018" summary="finished to comment on code at bottom">
+      <created>1673021162050</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1673021162050</updated>
+    </task>
+    <task id="LOCAL-00019" summary="finished to comment on code at bottom">
+      <created>1673021187510</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1673021187510</updated>
+    </task>
+    <task id="LOCAL-00020" summary="please have mercy">
+      <created>1673282570271</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1673282570272</updated>
+    </task>
+    <task id="LOCAL-00021" summary="changed #Zeitabstände stutzen">
+      <created>1673297532656</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1673297532656</updated>
+    </task>
+    <task id="LOCAL-00022" summary="changed #Zeitabstände stutzen">
+      <created>1673339778300</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1673339778300</updated>
+    </task>
+    <task id="LOCAL-00023" summary="added begining sentences">
+      <created>1673346119657</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1673346119657</updated>
+    </task>
+    <task id="LOCAL-00024" summary="deleted double down">
+      <created>1673346552616</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1673346552616</updated>
+    </task>
+    <task id="LOCAL-00025" summary="deleted double down">
+      <created>1673347531427</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1673347531427</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="testcommit" />
+    <MESSAGE value="incident calculation works, but without saving individual stones" />
+    <MESSAGE value="extended incident calculation for sim data" />
+    <MESSAGE value="incident calculation with tests" />
+    <MESSAGE value="incident calculation clean" />
+    <MESSAGE value="autos unfall kabooom" />
+    <MESSAGE value="autos pro jahr aufgerechnet und berechnung angepasst" />
+    <MESSAGE value="started to comment on code" />
+    <MESSAGE value="continued to comment on code" />
+    <MESSAGE value="finished to comment on code at bottom" />
+    <MESSAGE value="please have mercy" />
+    <MESSAGE value="changed #Zeitabstände stutzen" />
+    <MESSAGE value="added begining sentences" />
+    <MESSAGE value="deleted double down" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted double down" />
+  </component>
+</project>

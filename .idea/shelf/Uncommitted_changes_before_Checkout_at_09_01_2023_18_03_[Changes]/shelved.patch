@@ -1,0 +1,12 @@
+Index: CWM1-Steinschlagrisiko.ipynb
+===================================================================
+diff --git a/CWM1-Steinschlagrisiko.ipynb b/CWM1-Steinschlagrisiko.ipynb
+--- a/CWM1-Steinschlagrisiko.ipynb	
++++ b/CWM1-Steinschlagrisiko.ipynb	
+@@ -2384,4 +2384,4 @@
+  },
+  "nbformat": 4,
+  "nbformat_minor": 1
+-}
+\ No newline at end of file
++}

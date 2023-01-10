@@ -1,0 +1,265 @@
+Index: Steinschlag_v2.ipynb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Steinschlag_v2.ipynb b/Steinschlag_v2.ipynb
+--- a/Steinschlag_v2.ipynb	
++++ b/Steinschlag_v2.ipynb	
+@@ -11,12 +11,12 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": 2,
++   "execution_count": 12,
+    "outputs": [],
+    "source": [
+     "import matplotlib.pyplot as plt\n",
+     "import pandas as pd\n",
+-    "import pd as pd\n",
++    "#import pd as pd\n",
+     "import seaborn as sns\n",
+     "from datetime import datetime\n",
+     "from fitter import Fitter\n",
+@@ -40,7 +40,7 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": 3,
++   "execution_count": 13,
+    "metadata": {
+     "collapsed": true
+    },
+@@ -80,7 +80,7 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": 4,
++   "execution_count": 14,
+    "outputs": [],
+    "source": [
+     "df1 = open_csv_to_df(\"./out_1.csv\")\n",
+@@ -101,7 +101,7 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": 5,
++   "execution_count": 15,
+    "outputs": [],
+    "source": [
+     "def fit_distribution(data):\n",
+@@ -138,7 +138,7 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": 6,
++   "execution_count": 16,
+    "outputs": [],
+    "source": [
+     "#fit_distribution(df1['Mass_(kg)'])"
+@@ -149,7 +149,7 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": 7,
++   "execution_count": 17,
+    "outputs": [],
+    "source": [
+     "#fit_distribution(df1[\"Velocity_(m/s)\"])"
+@@ -160,7 +160,7 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": 8,
++   "execution_count": 18,
+    "outputs": [],
+    "source": [
+     "#fit_distribution(df1[\"Time_delta_(h)\"])"
+@@ -180,7 +180,7 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": 9,
++   "execution_count": 19,
+    "outputs": [],
+    "source": [
+     "#fit_distribution(df2['Mass_(kg)'])"
+@@ -191,7 +191,7 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": 10,
++   "execution_count": 20,
+    "outputs": [],
+    "source": [
+     "#fit_distribution(df2[\"Velocity_(m/s)\"])"
+@@ -202,7 +202,7 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": 11,
++   "execution_count": 21,
+    "outputs": [],
+    "source": [
+     "#fit_distribution(df2[\"Time_delta_(h)\"])"
+@@ -222,7 +222,7 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": 12,
++   "execution_count": 22,
+    "outputs": [],
+    "source": [
+     "def plot_verteilung(dataframe, x_val):\n",
+@@ -245,7 +245,7 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": 104,
++   "execution_count": 23,
+    "outputs": [],
+    "source": [
+     "mass1_sim = stats.norminvgauss.rvs(3.1212660746620413, 3.049636729092045, 34.65446329649014, 129.49172019279249, size = 1000000)\n",
+@@ -271,7 +271,7 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": 16,
++   "execution_count": 24,
+    "outputs": [],
+    "source": [
+     "mass2_sim = stats.skewcauchy.rvs(0.5654845478523323, 31.009036433794673, 28.383685799048294, size = 1000000)\n",
+@@ -287,23 +287,23 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": 107,
++   "execution_count": 25,
+    "outputs": [
+     {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": [
+-      "C:\\Users\\logan\\AppData\\Local\\Temp\\ipykernel_4932\\2038886911.py:8: SettingWithCopyWarning: \n",
++      "C:\\Users\\logan\\AppData\\Local\\Temp\\ipykernel_13748\\2038886911.py:8: SettingWithCopyWarning: \n",
+       "A value is trying to be set on a copy of a slice from a DataFrame\n",
+       "\n",
+       "See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n",
+       "  df1_sim[\"Time_delta_(h)\"][0] = 0\n",
+-      "C:\\Users\\logan\\AppData\\Local\\Temp\\ipykernel_4932\\2038886911.py:11: SettingWithCopyWarning: \n",
++      "C:\\Users\\logan\\AppData\\Local\\Temp\\ipykernel_13748\\2038886911.py:11: SettingWithCopyWarning: \n",
+       "A value is trying to be set on a copy of a slice from a DataFrame\n",
+       "\n",
+       "See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n",
+       "  df1_sim.Date[0] = datetime.strptime(\"2019-01-01 00:00\", '%Y-%m-%d %H:%M')\n",
+-      "C:\\Users\\logan\\AppData\\Local\\Temp\\ipykernel_4932\\2038886911.py:17: SettingWithCopyWarning: \n",
++      "C:\\Users\\logan\\AppData\\Local\\Temp\\ipykernel_13748\\2038886911.py:17: SettingWithCopyWarning: \n",
+       "A value is trying to be set on a copy of a slice from a DataFrame\n",
+       "\n",
+       "See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n",
+@@ -342,10 +342,103 @@
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": null,
++   "execution_count": 37,
++   "outputs": [
++    {
++     "name": "stderr",
++     "output_type": "stream",
++     "text": [
++      "C:\\Users\\logan\\AppData\\Local\\Temp\\ipykernel_13748\\3596957978.py:7: SettingWithCopyWarning: \n",
++      "A value is trying to be set on a copy of a slice from a DataFrame\n",
++      "\n",
++      "See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n",
++      "  df1_sim[\"Time_delta_(h)\"][0] = 0\n"
++     ]
++    }
++   ],
++   "source": [
++    "df1_sim = pd.DataFrame()\n",
++    "df1_sim.insert(0, \"Mass_(kg)\", mass1_sim)\n",
++    "df1_sim.insert(1, \"Velocity_(m/s)\", velocity1_sim)\n",
++    "df1_sim.insert(2, \"Energy\", \"\")\n",
++    "df1_sim.insert(3, \"Time_delta_(h)\", timedelta1_sim)\n",
++    "\n",
++    "df1_sim[\"Time_delta_(h)\"][0] = 0\n",
++    "df1_sim[\"Time_delta_(h)\"] = pd.to_timedelta(df1_sim['Time_delta_(h)'], unit='hour')\n",
++    "\n",
++    "\n",
++    "df1_sim = df1_sim.dropna()\n",
++    "df1_sim[\"Energy\"] = (df1_sim[\"Mass_(kg)\"] * 0.5) * (df1_sim[\"Velocity_(m/s)\"] ** 2) / 1000"
++   ],
++   "metadata": {
++    "collapsed": false
++   }
++  },
++  {
++   "cell_type": "code",
++   "execution_count": 106,
+    "outputs": [],
+    "source": [
+-    "print(\"hi\")"
++    "delta = df1_sim[\"Time_delta_(h)\"][0]+df1_sim[\"Time_delta_(h)\"][1]+df1_sim[\"Time_delta_(h)\"][2]\n",
++    "max_delta = pd.to_timedelta(24, unit='hour')\n",
++    "current_delta = pd.to_timedelta(0, unit='hour')\n",
++    "if delta <= (max_delta - current_delta):\n",
++    "    current_delta = current_delta + delta"
++   ],
++   "metadata": {
++    "collapsed": false
++   }
++  },
++  {
++   "cell_type": "code",
++   "execution_count": 105,
++   "outputs": [
++    {
++     "name": "stdout",
++     "output_type": "stream",
++     "text": [
++      "864.0208187204714\n",
++      "104.7435585361464\n",
++      "2452.321395278627\n",
++      "45.21560351746307\n",
++      "158.5724344525978\n",
++      "959.7766035195104\n",
++      "493.32098349350343\n",
++      "25.546377808534103\n",
++      "1306.618344249262\n",
++      "459.2039641518024\n",
++      "---------------\n",
++      "1     104.743559\n",
++      "2    2452.321395\n",
++      "3      45.215604\n",
++      "4     158.572434\n",
++      "5     959.776604\n",
++      "6     493.320983\n",
++      "7      25.546378\n",
++      "8    1306.618344\n",
++      "9     459.203964\n",
++      "Name: Mass_(kg), dtype: float64\n"
++     ]
++    }
++   ],
++   "source": [
++    "max_delta = pd.to_timedelta(24, unit='hour')\n",
++    "current_delta = pd.to_timedelta(0, unit='hour')\n",
++    "netz = 0\n",
++    "for i in range(int(len(df1_sim)/100000)):\n",
++    "\n",
++    "    if df1_sim[\"Time_delta_(h)\"][i] > current_delta:\n",
++    "        delta_rest = abs(current_delta - df1_sim[\"Time_delta_(h)\"][i])\n",
++    "        netz = df1_sim[\"Mass_(kg)\"][i]\n",
++    "\n",
++    "    elif df1_sim[\"Time_delta_(h)\"][i] <= current_delta:\n",
++    "        current_delta = current_delta + df1_sim[\"Time_delta_(h)\"][i]\n",
++    "        netz = netz + df1_sim[\"Mass_(kg)\"][i]\n",
++    "\n",
++    "    print(netz)\n",
++    "\n",
++    "print(\"---------------\")\n",
++    "print(df1_sim[\"Mass_(kg)\"][1:10])"
+    ],
+    "metadata": {
+     "collapsed": false

@@ -1,0 +1,15 @@
+Index: CWM1-Steinschlagrisiko.ipynb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CWM1-Steinschlagrisiko.ipynb b/CWM1-Steinschlagrisiko.ipynb
+--- a/CWM1-Steinschlagrisiko.ipynb	(revision 594b0b0a1172ddf50d28fa14101aed4475cab904)
++++ b/CWM1-Steinschlagrisiko.ipynb	(date 1673282398852)
+@@ -2384,4 +2384,4 @@
+  },
+  "nbformat": 4,
+  "nbformat_minor": 1
+-}
+\ No newline at end of file
++}

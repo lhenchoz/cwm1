@@ -1,0 +1,15 @@
+Index: Steinschlag_v1.ipynb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Steinschlag_v1.ipynb b/Steinschlag_v1.ipynb
+--- a/Steinschlag_v1.ipynb	(revision 8e89be2ef12980d2fae3d881e3406f435422151e)
++++ b/Steinschlag_v1.ipynb	(date 1673283843026)
+@@ -707,4 +707,4 @@
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+-}
+\ No newline at end of file
++}
