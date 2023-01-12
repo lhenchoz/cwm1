@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61aac815-7c9b-4945-b6a3-49b2384864f8" name="Changes" comment="trying to merge..">
+    <list default="true" id="61aac815-7c9b-4945-b6a3-49b2384864f8" name="Changes" comment="inhaltsverzeichnis added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CWM1-Steinschlagrisiko.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/CWM1-Steinschlagrisiko.ipynb" afterDir="false" />
     </list>
@@ -66,7 +66,10 @@
       <workItem from="1673353482719" duration="126000" />
       <workItem from="1673353649869" duration="292000" />
       <workItem from="1673353952377" duration="536000" />
-      <workItem from="1673354503015" duration="4095000" />
+      <workItem from="1673354503015" duration="6421000" />
+      <workItem from="1673384726926" duration="11394000" />
+      <workItem from="1673450990102" duration="3996000" />
+      <workItem from="1673544500421" duration="1537000" />
     </task>
     <task id="LOCAL-00001" summary="testcommit">
       <created>1672145605198</created>
@@ -250,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673354690716</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="inhaltsverzeichnis added">
+      <created>1673358687170</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1673358687170</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +299,7 @@
     <MESSAGE value="added begining sentences" />
     <MESSAGE value="deleted double down" />
     <MESSAGE value="trying to merge.." />
-    <option name="LAST_COMMIT_MESSAGE" value="trying to merge.." />
+    <MESSAGE value="inhaltsverzeichnis added" />
+    <option name="LAST_COMMIT_MESSAGE" value="inhaltsverzeichnis added" />
   </component>
 </project>
