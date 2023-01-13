@@ -19,5 +19,15 @@ pip install numpy
 pip install scipy
 pip install statsmodels
 ``` 
+
+## Ausfürhung des Codes
+
+Das File CWM1-Steinschlagrisiko.ipynb sollte am besten mit Jupyter Notebook geöffnet werden. 
+Für die Installation von Jupyter Notebook kann man wieder das pip benutzen.
+```bash
+pip install notebook
+``` 
+
+
 ## Abgabe
 Die Abgabe der Challenge folgt in Form einem Jupyter Notebook (Quellcode), kurzer Bericht (8 Seiten) und eine Arbeitsdokumenation.
