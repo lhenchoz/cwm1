@@ -20,7 +20,7 @@ pip install scipy
 pip install statsmodels
 ``` 
 
-## Ausfürhung des Codes
+## Ausführung des Codes
 
 Das File CWM1-Steinschlagrisiko.ipynb sollte am besten mit Jupyter Notebook geöffnet werden. 
 Für die Installation von Jupyter Notebook kann man wieder das pip benutzen.
