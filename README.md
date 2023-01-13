@@ -27,7 +27,7 @@ Für die Installation von Jupyter Notebook kann man wieder das pip benutzen.
 ```bash
 pip install notebook
 ``` 
-Oder ein andere Integrierte Entwicklungsumgebung wie zum Beispiel [PyCharm]https://www.jetbrains.com/pycharm/download/#section=mac
+Oder ein andere Integrierte Entwicklungsumgebung wie zum Beispiel [PyCharm](https://www.jetbrains.com/pycharm/download/#section=mac)
 
 
 ## Abgabe
